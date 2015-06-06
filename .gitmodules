@@ -1,3 +1,6 @@
 [submodule "src/github.com/jinzhu/gorm"]
 	path = src/github.com/jinzhu/gorm
 	url = https://github.com/jinzhu/gorm
+[submodule "src/github.com/BurntSushi/toml"]
+	path = src/github.com/BurntSushi/toml
+	url = https://github.com/BurntSushi/toml
