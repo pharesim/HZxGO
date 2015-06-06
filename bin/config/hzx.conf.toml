@@ -1,0 +1,14 @@
+NodeListen = "10.0.2.15"
+NodePort   = 8260
+NodePublic = true
+
+Nodes = [
+	"127.0.0.1:8265",
+]
+
+Debug = true
+
+Database = "data/hzx.db"
+
+UIListen = "127.0.0.1"
+UIPort   = 8280

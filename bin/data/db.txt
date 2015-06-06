@@ -1,0 +1,13 @@
+CREATE TABLE peers (
+	id INTEGER,
+	Address TEXT,
+	Port NUMERIC,
+	created_at TIMESTAMP,
+	Parent TEXT,
+	updated_at TIMESTAMP,
+	deleted_at TIMESTAMP,
+	Version TEXT,
+	Active BOOLEAN,
+	PRIMARY KEY (id),
+	UNIQUE (Address)
+);
