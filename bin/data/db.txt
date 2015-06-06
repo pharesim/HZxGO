@@ -9,5 +9,5 @@ CREATE TABLE peers (
 	Version TEXT,
 	Active BOOLEAN,
 	PRIMARY KEY (id),
-	UNIQUE (Address)
+	UNIQUE (Address,Port)
 );
